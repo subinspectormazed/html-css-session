@@ -1,3 +1,67 @@
-h1 {
-  color: red;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,100;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* hero section design */
+.hero {
+  background-image: url('../image/cow.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.hero h1 {
+  color: wheat;
+  font-size: 100pt;
+  text-align: left;
+  padding-left: 50px;
+}
+.para-hero {
+  color: gainsboro;
+  width: 300px;
+  font-size: 7pt;
+  padding-left: 80px;
+  padding-top: 300px;
+}
+.para2-hero {
+  color: gainsboro;
+  width: 200px;
+  font-size: 7pt;
+  padding-left: 80px;
+}
+/* ------------------ */
+.article,
+#image-style {
+  width: 80%;
+  margin: 80px auto;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 40px;
+}
+.article h2,
+#image-style h2 {
+  font-size: 3em;
+  text-align: center;
+  margin: 0 0 10px 0;
+  border-width: 2px;
+  border-color: azure;
+  border-style: solid;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+.article p {
+  font-size: 1em;
+}
+.article p .imp {
+  color: green;
+  font-weight: 600;
+}
+img {
+  width: 40%;
+  border-radius: 10px;
 }
